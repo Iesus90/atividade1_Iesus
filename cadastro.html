@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styleCadastro.css"/>
+    <script src="/js/script.js"></script>
+    <meta charset="utf8">
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <img src="C:/Users/Iesus/Desktop/dev-web/img/note.png" alt="Cadastro">
+    <h1>Cadastro</h1>
+    <form role="form">
+      <fieldset>
+        <div class="form">
+          <label for="userEmail">E-mail:</label>
+          <input id="userEmail" type="email" placeholder="E-mail"><br>
+          <label for="userSenha">Senha:</label>
+          <input id="userSenha" type="password" placeholder="Senha"><br>
+          <label for="userConfirmarSenha">Confirmar Senha:</label>
+          <input id="userConfirmarSenha" type="password" placeholder="Confirmar Senha"><br>
+          <p>Sua senha deve conter mais de 6 digitos, contendo letra, número !!!</p>
+        </div>
+        <hr>
+        <h4 for="dadosPessoais">Dados Pessoais</h5>
+        <div class="form">
+          <label for="userName">Nome:</label>
+          <input id="userName" type="text" placeholder="Nome"><br>
+          <label for="userEndereco">Endereço:</label>
+          <input id="userEndereco" type="text" placeholder="Endereço"><br>
+          <label for="userCidade">Cidade:</label>
+          <input id="userCidade" type="text" placeholder="Cidade"><br>
+          <label for="userCep">CEP:</label>
+          <input id="userCep" type="number" placeholder="CEP"><br>
+          <label for="userBairro">Bairro:</label>
+          <input id="userBairro" type="text" placeholder="Bairro"><br>
+          <label for="userEstado">Estado:</label>
+          <select>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+          </select><br>
+          <label for="userNasc">Data de Nascimento:</label>
+          <input id="userNasc" type="date" placeholder="Data de Nascimento"><br>
+          <label for="userTelefone">Telefone:</label>
+          <input id="userTelefone" type="number" placeholder="Telefone"><br>
+        </div>
+        <hr>
+        <input type="checkbox" id="1" name="CPP"><label class="CPP" for="CPP">Aceito os termos de privacidade e política do site.</label><br>
+        <input class="bCadastro" type="submit" value="Cadastrar" formaction="index.html"><br>
+      </fieldset>
+    </form>
+  </body>
+</html>

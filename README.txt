@@ -1,0 +1,2 @@
+Site sobre praias do Ceará, lista as 12 melhores de acordo com sites especializados, e faz um alerta para o desastre nas praias do nordeste,
+onde surgiu um oleo misterioso nas praias, tirando o trabalho das pessoas que moram perto delas.
